@@ -26,6 +26,7 @@ Working on a application that can predict student's score tests(posttest) by
   * .csv file of the dataset file
   * .keynote of the project(mostly about the data analysis)
   * .ipynb file from Google Colab & Jupyter Notebook
+  * .xcodeproj file of the application
 <br>
 
 ## Beta Version Explanation
