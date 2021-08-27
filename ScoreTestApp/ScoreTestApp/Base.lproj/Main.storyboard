@@ -120,7 +120,7 @@
                                 <state key="normal" title="RESULT"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VdY-jb-zyS"/>
-                                    <segue destination="fjP-dj-Qbd" kind="show" identifier="ToResult" id="EnJ-IL-KJN"/>
+                                    <segue destination="mNR-uQ-4Ac" kind="show" id="Phb-6D-NVs"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WlE-9r-ILz">
@@ -169,49 +169,49 @@
             </objects>
             <point key="canvasLocation" x="882.60869565217399" y="58.258928571428569"/>
         </scene>
-        <!--ResultVC-->
-        <scene sceneID="oNH-y4-kpg">
+        <!--PredictionVC-->
+        <scene sceneID="qG2-08-PXR">
             <objects>
-                <viewController storyboardIdentifier="ResultVC" id="fjP-dj-Qbd" userLabel="ResultVC" customClass="ResultVC" customModule="ScoreTestApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="xu9-69-hgZ">
+                <viewController storyboardIdentifier="predictionVC" id="mNR-uQ-4Ac" customClass="PredictionVC" customModule="ScoreTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JqK-BY-x9N">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="46" translatesAutoresizingMaskIntoConstraints="NO" id="d0R-DC-XiV">
-                                <rect key="frame" x="105" y="277" width="205" height="136"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="wus-YF-N6c">
+                                <rect key="frame" x="51" y="271" width="312" height="110"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You might get...." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3G-9t-EvL">
-                                        <rect key="frame" x="0.0" y="0.0" width="205" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your score might be.." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFG-Zw-pXl">
+                                        <rect key="frame" x="0.0" y="0.0" width="312" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="72" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Eh-Me-dxa">
-                                        <rect key="frame" x="77" y="82" width="51" height="54"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCORE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0l-yv-7yX">
+                                        <rect key="frame" x="76" y="50" width="160" height="60"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="Qij-KC-lnU"/>
+                        <viewLayoutGuide key="safeArea" id="Bfg-Wp-BJD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="d0R-DC-XiV" firstAttribute="leading" secondItem="Qij-KC-lnU" secondAttribute="leading" constant="105" id="BnN-NP-q5E"/>
-                            <constraint firstItem="Qij-KC-lnU" firstAttribute="bottom" secondItem="d0R-DC-XiV" secondAttribute="bottom" constant="449" id="m2y-x1-yl7"/>
-                            <constraint firstItem="Qij-KC-lnU" firstAttribute="trailing" secondItem="d0R-DC-XiV" secondAttribute="trailing" constant="104" id="rQO-Jh-pgi"/>
-                            <constraint firstItem="d0R-DC-XiV" firstAttribute="top" secondItem="Qij-KC-lnU" secondAttribute="top" constant="189" id="zZC-6O-GFA"/>
+                            <constraint firstItem="wus-YF-N6c" firstAttribute="leading" secondItem="Bfg-Wp-BJD" secondAttribute="leading" constant="51" id="XjA-rv-CUo"/>
+                            <constraint firstItem="wus-YF-N6c" firstAttribute="top" secondItem="Bfg-Wp-BJD" secondAttribute="top" constant="183" id="azA-0h-g0L"/>
+                            <constraint firstItem="Bfg-Wp-BJD" firstAttribute="trailing" secondItem="wus-YF-N6c" secondAttribute="trailing" constant="51" id="hA2-75-cY9"/>
+                            <constraint firstItem="Bfg-Wp-BJD" firstAttribute="bottom" secondItem="wus-YF-N6c" secondAttribute="bottom" constant="481" id="oNJ-ht-h6h"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="FEY-Am-8Te"/>
+                    <navigationItem key="navigationItem" id="GTu-dn-ogz"/>
                     <connections>
-                        <outlet property="resultScore" destination="0Eh-Me-dxa" id="vCp-Jg-U7d"/>
+                        <outlet property="scoreLabel" destination="r0l-yv-7yX" id="mWl-6A-XbI"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a4I-tu-Hoc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vdq-pJ-K3w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1637.68115942029" y="77.678571428571431"/>
+            <point key="canvasLocation" x="924.63768115942037" y="745.98214285714278"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EOm-eV-vBF">

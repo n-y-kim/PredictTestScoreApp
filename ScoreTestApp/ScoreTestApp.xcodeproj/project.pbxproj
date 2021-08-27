@@ -15,7 +15,7 @@
 		5B73141A26D7F59100848286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B73141826D7F59100848286 /* LaunchScreen.storyboard */; };
 		5B73142326D7F5AD00848286 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73142226D7F5AD00848286 /* CoreML.framework */; };
 		5B73142526D7F6B800848286 /* scores.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5B73142426D7F6B800848286 /* scores.mlmodel */; };
-		5B73142726D7F6C200848286 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B73142626D7F6C200848286 /* ResultVC.swift */; };
+		5B73142926D8BEDA00848286 /* PredictionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B73142826D8BEDA00848286 /* PredictionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		5B73141B26D7F59100848286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B73142226D7F5AD00848286 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
 		5B73142426D7F6B800848286 /* scores.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = scores.mlmodel; sourceTree = "<group>"; };
-		5B73142626D7F6C200848286 /* ResultVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		5B73142826D8BEDA00848286 /* PredictionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +67,12 @@
 				5B73142426D7F6B800848286 /* scores.mlmodel */,
 				5B73140D26D7F58F00848286 /* AppDelegate.swift */,
 				5B73140F26D7F58F00848286 /* SceneDelegate.swift */,
-				5B73142626D7F6C200848286 /* ResultVC.swift */,
 				5B73141126D7F58F00848286 /* ViewController.swift */,
 				5B73141326D7F58F00848286 /* Main.storyboard */,
 				5B73141626D7F59100848286 /* Assets.xcassets */,
 				5B73141826D7F59100848286 /* LaunchScreen.storyboard */,
 				5B73141B26D7F59100848286 /* Info.plist */,
+				5B73142826D8BEDA00848286 /* PredictionVC.swift */,
 			);
 			path = ScoreTestApp;
 			sourceTree = "<group>";
@@ -155,11 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B73142726D7F6C200848286 /* ResultVC.swift in Sources */,
 				5B73141226D7F58F00848286 /* ViewController.swift in Sources */,
 				5B73142526D7F6B800848286 /* scores.mlmodel in Sources */,
 				5B73140E26D7F58F00848286 /* AppDelegate.swift in Sources */,
 				5B73141026D7F58F00848286 /* SceneDelegate.swift in Sources */,
+				5B73142926D8BEDA00848286 /* PredictionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

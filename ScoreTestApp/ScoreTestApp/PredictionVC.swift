@@ -1,20 +1,22 @@
 //
-//  ResultVC.swift
-//  test-score
+//  PredictionVC.swift
+//  ScoreTestApp
 //
-//  Created by Nayeon Kim on 2021/08/26.
+//  Created by Nayeon Kim on 2021/08/27.
 //
 
 import UIKit
 
-class ResultVC: UIViewController {
+class PredictionVC: UIViewController {
 
-    @IBOutlet weak var resultScore: UILabel!
+    @IBOutlet weak var scoreLabel: UILabel!
+    
+    var str:String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view.
+        scoreLabel.text = str
     }
     
 
