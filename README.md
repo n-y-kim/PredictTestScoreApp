@@ -1,6 +1,6 @@
 # Data-Science & Machine Learning(scikit, coreML) to iOS Application
 Project inspired from ['Dongguk Uni X Naver Boostcourse'](https://www.boostcourse.org/study-dongguk-1)<br>
-Prediction of test score with dataset(https://www.kaggle.com/kwadwoofosu/predict-test-scores-of-students)
+Prediction of test score with [dataset](https://www.kaggle.com/kwadwoofosu/predict-test-scores-of-students)
 
 ### Application
 <p float="left"><img src = "https://user-images.githubusercontent.com/76769919/131087546-73f9f008-08c2-49d3-9ca3-83577fa627ed.png" width="30%" height="30%"><img src = "https://user-images.githubusercontent.com/76769919/131087549-b5c5b9ca-23d1-406a-b7cf-e4bbdab9a8d9.png" width="30%" height="30%"></p>
